@@ -22,7 +22,7 @@ end
 end
 
 def items
-  @@items_storage << item
+  @@items_storage << self.item
 end
 
 end
