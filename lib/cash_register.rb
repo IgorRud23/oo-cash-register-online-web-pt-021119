@@ -11,7 +11,7 @@ class CashRegister
   self.price = price
     @total = @total + price * quantity
     counter = 0
-    while quantity >= 1 || counter > 4
+    while counter > 4
      @items << items
         counter += 1
       end
