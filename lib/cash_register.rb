@@ -13,6 +13,7 @@ counter = 0
     while quantity >= 1
       @items << item
       counter += 1
+    end
   end
   end
 
