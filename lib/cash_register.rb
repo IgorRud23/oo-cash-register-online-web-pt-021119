@@ -14,7 +14,7 @@ def apply_discount
   if @discount = 20
     a = @total * 20 / 100
     @total = @total - a
-    ""
+    "After the discount, the total comes to $#{@total}."
 end
 end
 
