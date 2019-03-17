@@ -13,7 +13,7 @@ class CashRegister
     counter = 0
     while quantity >= 1 || counter > 4
       do @items << items
-        counter += 1 
+        counter += 1
       end 
 end
 
