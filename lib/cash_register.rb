@@ -16,5 +16,6 @@ def apply_discount
     @total = @total - a
     ""
 end
+end
 
-end 
+end
