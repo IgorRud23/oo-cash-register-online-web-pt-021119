@@ -23,7 +23,7 @@ end
 end
 
 def items
-@items << item 
+@items << self.item 
 end
 
 
