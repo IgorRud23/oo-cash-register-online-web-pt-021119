@@ -9,8 +9,8 @@ class CashRegister
 
   def add_item(item, price, quantity = 1)
     @total = @total + price * quantity
-    quantity >= 1
-    @items << item
+    if quantity > 1
+    @items << item +=1
   end
   end
 
