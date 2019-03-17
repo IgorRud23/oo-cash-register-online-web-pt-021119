@@ -16,7 +16,7 @@ def apply_discount
     @total = @total - a
     "After the discount, the total comes to $#{@total}."
   else
-"There is no descount to apply."
+"There is no discount to apply."
 end
 end
 
